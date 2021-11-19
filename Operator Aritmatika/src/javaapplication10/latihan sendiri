@@ -1,0 +1,41 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication10;
+
+/**
+ *
+ * @author lenovo
+ */
+public class JavaApplication10 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       float x = 8;
+       int y = 10;
+       float hasil;
+        System.out.println("ini angka = " + x);
+        
+        //PENJUMLAHAN
+        hasil = x + y ;
+        System.out.println(x + "+" + y + "=" + hasil );
+        System.out.printf("%f + %d = %f\n",x,y,hasil);
+        //pengurangan
+        hasil = x - y ;
+        System.out.printf("%f - %d = %f \n",x,y,hasil);
+        //perkalian
+        hasil = x * y;
+        System.out.printf("%f X %d = %f \n",x,y,hasil);
+        //pembagian
+        hasil = x / y ;
+        System.out.printf ("%f : %d = %f \n",x,y,hasil);
+      // modulus
+        hasil = x % y;
+        System.out.printf("%f %% %d = %f \n",x,y,hasil);
+    }
+    
+}
